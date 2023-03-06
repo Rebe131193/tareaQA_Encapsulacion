@@ -7,6 +7,7 @@ public class CuentaBancaria {
         this.saldo = saldo;
     }
 
+    //FUncion para retiro de efectivo
     public double retiro(double cantidad) {
         if (cantidad <= this.saldo) {
             this.saldo = this.saldo - cantidad;
