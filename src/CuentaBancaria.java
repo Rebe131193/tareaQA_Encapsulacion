@@ -17,6 +17,7 @@ public class CuentaBancaria {
         return this.saldo;
     }
 
+    //Funcion para deposito en efectivo
     public double deposito(double cantidad) {
         if (cantidad >= 1) {
             this.saldo = this.saldo + cantidad;
